@@ -524,6 +524,7 @@ div.about__img img {
 .contact__input::placeholder {
     color: white;
     font-weight: bold;
+    background: #292836;
 }
 
 .contact__input:hover {
