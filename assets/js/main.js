@@ -86,10 +86,11 @@ sr.reveal('.portfolio__img', {delay:200});
 
 /*Contact*/
 
-sr.reveal('.contact__subtitulo', {})
-sr.reveal('.contact__text', {interval: 200});
-sr.reveal('.contact__input', {interval: 400});
-sr.reveal('.contact__button', {delay: 600});
+
+
+
+sr.reveal('.content__tweet-text', {origin:'left', delay: 400});
+sr.reveal('.tweet', {delay: 600});
 
 
 function typeWrite(element) {
