@@ -92,6 +92,10 @@ sr.reveal('.contact__input', {interval: 400});
 sr.reveal('.contact__button', {delay: 600});
 
 
+sr.reveal('.content__tweet-text', {origin:'left', delay: 400});
+sr.reveal('.tweet', {delay: 600});
+
+
 function typeWrite(element) {
     const textoArray = element.innerText.split('');
     element.innerText = "";
