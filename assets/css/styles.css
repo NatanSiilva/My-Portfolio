@@ -620,7 +620,7 @@ div.about__img img {
 }
 
 .content__container-tweet {
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -642,6 +642,13 @@ div.about__img img {
     font-size: 17px;
 }
 
+.tweet {
+    box-shadow: 19px 25px 2px #00ff65;
+ 
+}
+
+
+
 
 /*quires*/
 
@@ -655,15 +662,15 @@ div.about__img img {
     }
 
     .content__tweet {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: start;
     }
 
     .tweet {
-        box-shadow: 0px 0px 19px #00ff65;
+        box-shadow: none;
     }
     
 }
