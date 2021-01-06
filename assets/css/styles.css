@@ -276,7 +276,7 @@ img{
 .home__scroll {
     align-self: flex-end;
     padding-bottom: var(--mb-4);
-    
+    cursor: pointer;
 } 
 
 .home__scroll a {
