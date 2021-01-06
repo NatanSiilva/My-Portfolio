@@ -280,7 +280,11 @@ img{
 } 
 
 .home__scroll a {
-    color: #57c76dc7;
+    padding: 10px;
+    color: white;
+    background: #2b285f;
+    border-radius: 5px;
+    box-shadow: 5px 7px 105px #0cf93c;
 }
 
 .home__scroll-link {
