@@ -492,15 +492,16 @@ div.about__img img {
 .contact__info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(153px, 1fr));
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
 
 
 .contact-text {
-    display: inline-block;
-    margin-bottom: var(--mb-2);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 .contact__inputs {
